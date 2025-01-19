@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="icon" type="image/png" href="../images/contact.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+            <ul id="nav-menu">
+                <li><a href="../index.html">Asosiy</a></li>
+                <li><a href="../pages/toyxonalar.html">To'yxonalar</a></li>
+                <li><a href="../pages/choyxonalar.html">Choyxonalar</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <hr>
+        <div class="contact-wrapper">
+            <div class="form-section">
+                <h2>Biz bilan bog'laning</h2>
+                <p>Formani to'ldiring va biz siz bilan bog'lanamiz</p>
+                <form>
+                    <label for="name">Ism</label>
+                    <input type="text" id="name" required placeholder="Ismingizni kiriting">
+                    
+                    <label for="phone">Telefon</label>
+                    <input type="tel" id="phone" placeholder="+998123456789" required>
+                    
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="domain@example.com" required>
+                    
+                    <label for="subject">Mavzu</label>
+                    <input type="text" id="subject" placeholder="Xabar mavzusini kiriting">
+                    
+                    <label for="message">Xabar</label>
+                    <textarea id="message" rows="4" placeholder="Xabaringizni kiriting" required></textarea>
+                    
+                    <button type="submit">Xabar yuborish</button>
+                </form>
+            </div>
+            <div class="info-section">
+                <h2>Bog'lanish ma'lumotlari</h2>
+                <div class="contact-info">
+                    <p>
+                        <strong>E-mail:</strong><br>
+                        <a href="mailto:murodbektuychiyev83@gmail.com">murodbektuychiyev83@gmail.com</a>
+                    </p>
+                    <p>
+                        <strong>Telefon:</strong><br>
+                        <a href="tel:+998500175636">+998 50 017 56 36</a>
+                    </p>
+                    <p>
+                        <strong>Manzil:</strong><br>
+                        O'zbekiston, Qashqadaryo viloyati
+                    </p>
+                </div>
+                <iframe 
+                    class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.89223720916!2d65.729489!3d39.011402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5768a3a0a0a0a1%3A0x6a6a6a6a6a6a6a6a!2s39.011402%2C%2065.729489!5e0!3m2!1sen!2suz!4v1632937208132!5m2!1sen!2suz" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 StarDev. Barcha huquqlar himoyalangan.</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>
